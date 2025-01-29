@@ -4,7 +4,7 @@
 MAGIK is a geometric deep-learning framework for analyzing biological system dynamics from time-lapse microscopy. It models object movement and interactions through a directed graph, where nodes represent object detections at specific times, and edges connect nodes that are spatiotemporally close. The framework aims to prune redundant edges while retaining true connections using a Message Passing Neural Network.
 
 ![MAGIK Framework](MAGIK.png)
-*Figure 1: Relations among cells detected over consecutive frames (a) are modelled geometrically using a directed graph (b), where  nodes, **v**, represent detections and edges, **e**, connect spatiotemporally close objects. MAGIK process the graph (c) predicting connection probabilities between objects as a binary edge-classification task.*
+*MAGIK Framework: Relations among cells detected over consecutive frames (a) are modelled geometrically using a directed graph (b), where  nodes, **v**, represent detections and edges, **e**, connect spatiotemporally close objects. MAGIK process the graph (c) predicting connection probabilities between objects as a binary edge-classification task.*
 
 
 ## Features
