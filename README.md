@@ -13,13 +13,20 @@ MAGIK is a geometric deep-learning framework for analyzing biological system dyn
 - Edge classification for trajectory reconstruction
 - Postprocessing algorithm to refine connections
 
-## Execution Details
-A Python Notebook is provided for training and applying MAGIK on 2D datasets from the Cell Tracking Challenge. The notebook is divided into five main sections:
+## Tutorial
+A Python Notebook is provided for executing all the steps for applying MAGIK on 2D datasets from the Cell Tracking Challenge. The notebook is divided into five main sections:
 1. **Reading and Viewing the Data** - Download and visualize datasets.
 2. **Graph Construction** - Build a directed spatiotemporal graph from segmentation maps.
 3. **Dataset Construction** - Generate training data using stochastic sampling.
 4. **MAGIK Definition and Training** - Define and train MAGIK using the deeplay deep learning package.
 5. **Model Evaluation** - Assess prediction quality and visualize trajectories.
+
+## Reproducing Benchmark Results
+For reproducing the results of the Cell Linking Benchmark, one can either execute the .sh files in the SW folder, or run the my_linker.py file as follow:
+```
+python ./my_linker.py "../Fluo-N2DL-HeLa/02" "../Fluo-N2DL-HeLa/02_ERR_SEG" "../Fluo-N2DL-HeLa/02_RES"
+```
+changing the dataset name and sequence number.
 
 ## References
 Pineda, J., Midtvedt, B., Bachimanchi, H., Noé, S., Midtvedt, D., Volpe, G., & Manzo, C. (2023). Geometric deep learning reveals the spatiotemporal features of microscopic motion. *Nature Machine Intelligence, 5*, 71-82.
