@@ -27,6 +27,7 @@ For reproducing the results of the Cell Linking Benchmark, one can either execut
 python ./my_linker.py "../Fluo-N2DL-HeLa/02" "../Fluo-N2DL-HeLa/02_ERR_SEG" "../Fluo-N2DL-HeLa/02_RES"
 ```
 changing the dataset name and sequence number.
+The code requires the installation of ```deeplay``` via pip or downloading it from [DeepTrackAI](https://github.com/DeepTrackAI/deeplay).
 
 ## References
 Pineda, J., Midtvedt, B., Bachimanchi, H., Noé, S., Midtvedt, D., Volpe, G., & Manzo, C. (2023). Geometric deep learning reveals the spatiotemporal features of microscopic motion. *Nature Machine Intelligence, 5*, 71-82.
