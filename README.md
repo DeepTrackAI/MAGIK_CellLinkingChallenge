@@ -36,8 +36,6 @@ This script will generate a CSV file with the results in the specified output fo
 
 If the specified results folder does not exist, it will be created automatically.
 
-changing the dataset name and sequence number.
-
 ## Requirements
 
 The code requires Python 3.9 or later and the installation of deeplay. You can install it using:
