@@ -29,8 +29,12 @@ A Python Notebook is provided for executing all the steps for applying MAGIK on 
 For reproducing the results of the Cell Linking Benchmark, one can either execute the .sh files in the SW folder, or run the my_linker.py file as follow:
 
 ```
-python ./my_linker.py "../Fluo-N2DL-HeLa/02" "../Fluo-N2DL-HeLa/02_ERR_SEG" "../Fluo-N2DL-HeLa/02_RES"
+python ./my_linker.py "path/to/image/folder" "path/to/segmentation/folder" "path/to/results/folder"
 ```
+
+This script will generate a CSV file with the results in the specified output folder. The results can then be compared against the benchmark provided by the Cell Tracking Challenge.
+
+If the specified results folder does not exist, it will be created automatically.
 
 changing the dataset name and sequence number.
 
