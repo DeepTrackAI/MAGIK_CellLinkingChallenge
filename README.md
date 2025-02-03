@@ -16,7 +16,7 @@ _MAGIK Framework: Relations among cells detected over consecutive frames (a) are
 
 ## Tutorials
 
-### Tutorial CLB
+### Tutorial ```CLB.pynb```
 A Python Notebook is provided for executing all the steps for applying MAGIK on 2D datasets from the Cell Linking Benchmark. The notebook is divided into five main sections:
 
 1. **Reading and Viewing the Data** - Download and visualize datasets.
@@ -25,10 +25,10 @@ A Python Notebook is provided for executing all the steps for applying MAGIK on 
 4. **MAGIK Definition and Training** - Define and train MAGIK using the deeplay deep learning package.
 5. **Model Evaluation** - Assess prediction quality and visualize trajectories.
 
-### Tutorial Custom Train
+### Tutorial ```train.pynb```
 A Python Notebook is provided for training MAGIK on a custom dataset, test it, and evaluate its performance.
 
-### Tutorial Custom Test
+### Tutorial ```test.pynb```
 A Python Notebook is provided for loading a pretrained model and applying it to a custom dataset.
 
 ## Reproducing Benchmark Results
