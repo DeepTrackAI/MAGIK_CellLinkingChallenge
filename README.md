@@ -55,7 +55,7 @@ This will automatically install all required dependencies, including PyTorch and
 
 ## References
 
-Pineda, J., Midtvedt, B., Bachimanchi, H., Noé, S., Midtvedt, D., Volpe, G., & Manzo, C. (2023). Geometric deep learning reveals the spatiotemporal features of microscopic motion. _Nature Machine Intelligence, 5_, 71-82.
+Pineda, J., Midtvedt, B., Bachimanchi, H., Noé, S., Midtvedt, D., Volpe, G., & Manzo, C. (2023). Geometric deep learning reveals the spatiotemporal features of microscopic motion. _Nature Machine Intelligence_, 5, 71-82.
 
 ## BibTeX
 
